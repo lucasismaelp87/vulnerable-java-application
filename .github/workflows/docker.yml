@@ -55,3 +55,4 @@ jobs:
            api-token: ${{ secrets.TENABLE_API_TOKEN }}
            api-url: https://br.app.ermetic.com
            name: datadog/vulnerable-java-application
+           logs: true

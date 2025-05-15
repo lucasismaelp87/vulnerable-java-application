@@ -39,6 +39,9 @@ jobs:
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref_name }}
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+
+            - name: Build da imagem Docker
+          run: docker build -t datadog/vulnerable-java-application
             
       - uses: actions/checkout@v3
       - name: Scan IaC with Tenable Cloud Security

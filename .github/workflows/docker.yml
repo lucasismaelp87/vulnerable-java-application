@@ -41,7 +41,7 @@ jobs:
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
 
       - name: Build da imagem Docker
-        run: docker build -t vulnerable-java-application
+        run: docker build -t vulnerable-java-application .
             
       - uses: actions/checkout@v3
       - name: Scan IaC with Tenable Cloud Security

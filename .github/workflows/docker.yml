@@ -60,3 +60,6 @@ jobs:
            name: vulnerable-java-application
            logs: true
            fail-on-min-severity: critical
+           output-file-formats: sarif
+           output-file-name: results
+           output-path: results/

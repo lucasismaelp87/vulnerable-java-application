@@ -62,4 +62,4 @@ jobs:
            fail-on-min-severity: critical
            output-file-formats: sarif
            output-file-name: results
-           output-path: /github/workspace/results/
+           

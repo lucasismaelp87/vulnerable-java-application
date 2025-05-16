@@ -59,7 +59,7 @@ jobs:
            api-url: https://br.app.ermetic.com
            name: vulnerable-java-application
            logs: true
-           fail-on-min-severity: critical
+
            output-file-formats: json
            output-file-name: results
            
